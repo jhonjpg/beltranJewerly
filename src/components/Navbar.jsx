@@ -141,24 +141,24 @@ const toggle = `togglingOff ${toggleOn ? "togglingMenu" : ""}`
 <div className="w-full h-72 ">
 
 
-  <img  className="w-full h-full objecct-cover" src="diamon.png" alt="" />
+  <img  className="w-full h-full objecct-cover" src="/diamon.png" alt="" />
 </div>
 
 <ul className="w-full flex flex-col gap-5 ">
-       <li className="w-full text-2xl text-center" > <Link  onClick={toggleMenu} exact="true" to="/beltranJewerly/" activeclassname="active" >  {t('home')}</Link></li>
-         <li className="w-full text-2xl text-center"  > <Link  onClick={toggleMenu} to="/beltranJewerly/about" activeclassname="active"   >  {t('about')}</Link></li>
+       <li className="w-full text-2xl text-center" > <Link  onClick={toggleMenu} exact="true" to="/beltranJewerly/"  >  {t('home')}</Link></li>
+         <li className="w-full text-2xl text-center"  > <Link  onClick={toggleMenu} to="/beltranJewerly/about"    >  {t('about')}</Link></li>
        
       <li className=" w-full text-2xl text-center" onClick={handleclick}
       >PRODUCT</li>
       {isNav && (
         <div className="relative bg-slate-100 w-full ">
-      <li className="text-xl  w-full text-center  hover:bg-slate-300"> <Link onClick={toggleMenu} to="/beltranJewerly/rings" activeClassName="active">  {t('ring')}</Link></li>
-    <li className="text-xl w-full text-center  hover:bg-slate-300"> <Link onClick={toggleMenu} to="/beltranJewerly/bracelet" activeClassName="active">  {t('bracelets')}</Link></li>
-    <li className="text-xl  w-full text-center hover:bg-slate-300"> <Link onClick={toggleMenu} to="/beltranJewerly/necklace" activeClassName="active">  {t('necklaces')}</Link></li>
-    <li className="text-xl  w-full text-center hover:bg-slate-300"> <Link onClick={toggleMenu} to="/beltranJewerly/necklace" activeClassName="active">  {t('todo')}</Link></li>
+      <li className="text-xl  w-full text-center  hover:bg-slate-300"> <Link onClick={toggleMenu} to="/beltranJewerly/rings" >  {t('ring')}</Link></li>
+    <li className="text-xl w-full text-center  hover:bg-slate-300"> <Link onClick={toggleMenu} to="/beltranJewerly/bracelet" >  {t('bracelets')}</Link></li>
+    <li className="text-xl  w-full text-center hover:bg-slate-300"> <Link onClick={toggleMenu} to="/beltranJewerly/necklace" >  {t('necklaces')}</Link></li>
+    <li className="text-xl  w-full text-center hover:bg-slate-300"> <Link onClick={toggleMenu} to="/beltranJewerly/necklace" >  {t('todo')}</Link></li>
         </div>
       )}
-            <li className="w-full text-2xl text-center "  > <Link onClick={toggleMenu} to="/beltranJewerly/contact" activeclassname="active"  >  {t('contact')}</Link></li>
+            <li className="w-full text-2xl text-center "  > <Link onClick={toggleMenu} to="/beltranJewerly/contact"   >  {t('contact')}</Link></li>
             </ul>
 
 
@@ -179,7 +179,7 @@ const toggle = `togglingOff ${toggleOn ? "togglingMenu" : ""}`
 
 <div className="w-16 h-full">
 
-<img className="w-full h-full object-cover" src="diamon.png" alt=""  />
+<img className="w-full h-full object-cover" src="/diamon.png" alt=""  />
 </div>
 
 
@@ -194,12 +194,12 @@ const toggle = `togglingOff ${toggleOn ? "togglingMenu" : ""}`
   <div className="w-24 h-full">
 
 
-    <img className="w-full h-full object-cover" src="diamon.png" alt="" />
+    <img className="w-full h-full object-cover" src="/diamon.png" alt="" />
   </div>
 
   <ul className="w-3/4 flex text-lg text-gray-700 justify-end gap-10 uppercase items-center">
-    <li className="p-2 hover:bg-slate-100"> <Link exact="true" to="/beltranJewerly/" activeClassName="active">  {t('home')}</Link></li>
-    <li className="p-2 hover:bg-slate-100"> <Link to="/beltranJewerly/about" activeClassName="active">
+    <li className="p-2 hover:bg-slate-100"> <Link exact="true" to="/beltranJewerly/" >  {t('home')}</Link></li>
+    <li className="p-2 hover:bg-slate-100"> <Link to="/beltranJewerly/about" >
         {t('about')}</Link></li>
 
         <div
@@ -209,21 +209,21 @@ const toggle = `togglingOff ${toggleOn ? "togglingMenu" : ""}`
     >
       <select className="dropdown-button bg-transparent" ><option value="product">PRODUCT</option></select>
       {isMenuOpen && (
-        <div className="dropdown-menu relative bg-slate-100 top-20 w-30">
-      <li className="w-24 hover:bg-slate-300"> <Link to="/beltranJewerly/rings" activeClassName="active">  {t('ring')}</Link></li>
-    <li className="hover:bg-slate-300"> <Link to="/beltranJewerly/bracelet" activeClassName="active">  {t('bracelets')}</Link></li>
-    <li className="hover:bg-slate-300"> <Link to="/beltranJewerly/necklace" activeClassName="active">  {t('necklaces')}</Link></li>
-    <li className="hover:bg-slate-300"> <Link to="/beltranJewerly/necklace" activeClassName="active">  {t('todo')}</Link></li>
+        <div className="dropdown-menu relative bg-slate-100 top-5 w-30">
+      <li className="w-24 hover:bg-slate-300"> <Link to="/beltranJewerly/rings" >  {t('ring')}</Link></li>
+    <li className="hover:bg-slate-300"> <Link to="/beltranJewerly/bracelet" >  {t('bracelets')}</Link></li>
+    <li className="hover:bg-slate-300"> <Link to="/beltranJewerly/necklace" >  {t('necklaces')}</Link></li>
+    <li className="hover:bg-slate-300"> <Link to="/beltranJewerly/necklace" >  {t('todo')}</Link></li>
         </div>
       )}
     </div>
    
-    <li className="hover:bg-slate-300"> <Link to="/beltranJewerly/contact" activeClassName="active">  {t('contact')}</Link></li>
+    <li className="p-2 hover:bg-slate-100"> <Link to="/beltranJewerly/contact" >  {t('contact')}</Link></li>
 
    
 
-    <button className="w-16 h-full flex items-center justify-center" onClick={currentLanguage === 'es' ? changeToEnglish : changeToSpanish}>
-      <h2 className="text-white flex justify-center items-center gap-3 overflow-hidden h-30">{buttonText} <div className="w-8 h-8"><img src={buttonImage} className="w-full h-full object-contain" alt="flags"/> </div>
+    <button className="w-16  p-2 h-full flex items-center justify-center hover:bg-slate-100" onClick={currentLanguage === 'es' ? changeToEnglish : changeToSpanish}>
+      <h2 className="text-slate-700 flex justify-center items-center gap-3 overflow-hidden h-30">{buttonText} <div className="w-8 h-8"><img src={buttonImage} className="w-full h-full object-contain" alt="flags"/> </div>
       </h2>
     </button>
   </ul>

@@ -13,11 +13,14 @@ import Necklace from '../Pages/Necklace';
 import Contact from '../Pages/Contact';
 import About from '../Pages/About';
 import Footer from '../Pages/Footer';
+import ProductDetail from '../components/ProductDetails';
+import es from '../18next/es.json';
 
 
 
 const Auth = () => {
 
+  const pruduct = es
 
 
   
@@ -37,12 +40,13 @@ const Auth = () => {
       <Route path="/beltranJewerly/" element={<Home />}></Route>
       <Route path="/beltranJewerly/about" element={<About />}></Route>
       <Route path="/beltranJewerly/rings" element={<Rings />}></Route>
+      <Route path="/beltranJewerly/rings/:productName" element={< ProductDetail jewerlrys={pruduct.rings}   route="rings"/>}></Route>
       <Route path="/beltranJewerly/bracelet" element={<Bracelet />}></Route>
+      <Route path="/beltranJewerly/bracelet/:productName" element={< ProductDetail jewerlrys={pruduct.bracelet} route="bracelet"/>}></Route>
       <Route path="/beltranJewerly/charms" element={<Bracelet />}></Route>
       <Route path="/beltranJewerly/necklace" element={<Necklace />}></Route>
+      <Route path="/beltranJewerly/necklace/:productName" element={< ProductDetail jewerlrys={pruduct.necklace} route="necklace"/>}></Route>
       <Route path="/beltranJewerly/contact" element={<Contact />}></Route>
-
-
 
 
         

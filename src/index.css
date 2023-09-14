@@ -22,6 +22,10 @@ body {
     padding: 50em !important;
 }
 
+.active {
+    background-color: red !important;
+}
+
 .swiper-pagination .swiper-pagination-progressbar .swiper-pagination-horizontal {
     position: absolute;
     top: 20px !important;
@@ -199,6 +203,10 @@ form {
 
 .socialContainer:hover .socialSvg {
     animation: slide-in-top 0.3s both;
+}
+
+.similares {
+    height: 440px;
 }
 
 @media (min-width: 768px) {

@@ -1,5 +1,7 @@
 import React from 'react'
 import es from '../18next/es.json';
+import { Link } from 'react-router-dom';
+
 
 
 const Necklace = () => {
@@ -30,15 +32,15 @@ const Necklace = () => {
 
 <ul className="flex w-full flex-wrap">
       {es.necklace.map((necklace) => (
-        <li key={necklace.id} className="bg-zinc-100 	w-2/4 h-52 flex flex-col justify-between gap-3 p-2 mb-3 md:w-1/4	h-80">
-          <div className="w-full h-72 overflow-hidden">
-            <img className="w-full h-full object-cover" src={necklace.img} alt="" />
-          </div>
-          <div className="h-12 w-full flex flex-col items-start">
-            <span className="w-full text-black text-xl">{necklace.name}</span>
-            <p className="text-gray-500">{necklace.prices}</p>
-          </div>
-        </li>
+        <li key={necklace.id} className="bg-zinc-100 w-2/4 h-52 flex flex-col justify-between gap-3 p-2 mb-3 md:w-1/4 h-80">
+        <Link to={`/beltranJewerly/necklace/${necklace.name}`} className="w-full h-72 overflow-hidden">
+          <img className="w-full h-full object-cover" src={necklace.img} alt="" />
+        </Link>
+        <div className="h-12 w-full flex flex-col items-start">
+          <span className="w-full text-black text-xl">{necklace.name}</span>
+          <p className="text-gray-500">{necklace.prices}</p>
+        </div>
+      </li>
       ))}
     </ul>
   </section>  )

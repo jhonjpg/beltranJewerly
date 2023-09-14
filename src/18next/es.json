@@ -110,272 +110,232 @@
     "rings": [{
             "id": 0,
             "img": "img/rings/ring1.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
-
+            "name": "Sapphire Elegance Ring",
+            "prices": "$69.99 USD"
         },
         {
             "id": 1,
             "img": "img/rings/ring2.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
+            "name": "Emerald Harmony Ring",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 2,
             "img": "img/rings/ring3.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
+            "name": "Diamond Dream Ring",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 3,
             "img": "img/rings/ring4.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
+            "name": "Ruby Radiance Ring",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 4,
             "img": "img/rings/ring5.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
+            "name": "Pearl Perfection Ring",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 5,
             "img": "img/rings/ring6.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
+            "name": "Amethyst Allure Ring",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 6,
             "img": "img/rings/ring7.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
+            "name": "Topaz Treasure Ring",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 7,
             "img": "img/rings/ring8.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
+            "name": "Aquamarine Adorn Ring",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 8,
             "img": "img/rings/ring9.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
+            "name": "Opal Odyssey Ring",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 9,
             "img": "img/rings/ring10.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
+            "name": "Citrine Charm Ring",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 10,
             "img": "img/rings/ring11.jpg",
-            "name": "Fleur de lis ring",
-            "prices": "$69,99 USD"
+            "name": "Garnet Gleam Ring",
+            "prices": "$69.99 USD"
         }
-
     ],
 
     "bracelet": [{
             "id": 0,
             "img": "img/bracelet/bracelet1.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
-
+            "name": "Silver Link Bracelet",
+            "prices": "$69.99 USD"
         },
         {
             "id": 1,
             "img": "img/bracelet/bracelet2.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Gold Bangle Bracelet",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 2,
             "img": "img/bracelet/bracelet3.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Pearl Charm Bracelet",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 3,
             "img": "img/bracelet/bracelet4.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Leather Cuff Bracelet",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 4,
             "img": "img/bracelet/bracelet5.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Crystal Tennis Bracelet",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 5,
             "img": "img/bracelet/bracelet6.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Diamond Bangle Bracelet",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 6,
             "img": "img/bracelet/bracelet7.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Gemstone Link Bracelet",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 7,
             "img": "img/bracelet/bracelet8.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Enamel Cuff Bracelet",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 8,
             "img": "img/bracelet/bracelet9.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Silver Heart Bracelet",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 9,
             "img": "img/bracelet/bracelet10.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Chain Link Bracelet",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 10,
             "img": "img/bracelet/bracelet11.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Rose Gold Cuff Bracelet",
+            "prices": "$69.99 USD"
         }
-
     ],
-
-
-
-
 
 
     "necklace": [{
             "id": 0,
             "img": "img/necklace/necklace1.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
-
+            "name": "Diamond Solitaire Necklace",
+            "prices": "$69.99 USD"
         },
         {
             "id": 1,
             "img": "img/necklace/necklace2.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Pearl Strand Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 2,
             "img": "img/necklace/necklace3.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Heart-Shaped Locket Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 3,
             "img": "img/necklace/necklace4.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Cross Pendant Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 4,
             "img": "img/necklace/necklace5.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Charm Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 5,
             "img": "img/necklace/necklace6.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Gemstone Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 6,
             "img": "img/necklace/necklace7.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Initial Pendant Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 7,
             "img": "img/necklace/necklace8.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Tennis Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 8,
             "img": "img/necklace/necklace9.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Bar Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 9,
             "img": "img/necklace/necklace10.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Statement Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 10,
             "img": "img/necklace/necklace11.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Pendant Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 11,
             "img": "img/necklace/necklace12.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Collar Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 12,
             "img": "img/necklace/necklace13.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Layered Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 13,
             "img": "img/necklace/necklace14.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Infinity Necklace",
+            "prices": "$69.99 USD"
         },
-
         {
             "id": 14,
             "img": "img/necklace/necklace15.jpg",
-            "name": "Fleur de lis bracelet",
-            "prices": "$69,99 USD"
+            "name": "Choker Necklace",
+            "prices": "$69.99 USD"
         }
-
     ],
+
 
 
     "testimonials": [{
